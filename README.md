@@ -18,6 +18,7 @@ Collection of [Node-RED][node-red] themes published by the [Node-RED Contrib The
 Install via npm
 
 ```shell
+cd .node-red
 npm install @node-red-contrib-themes/theme-collection
 ```
 
@@ -27,7 +28,8 @@ Add the following to the `editorTheme` section of your `settings.js`, and then r
 
 ```js
 editorTheme: {
-    theme: "<theme-name>"
+    theme: "<theme-name>",
+    ...
 },
 ```
 
